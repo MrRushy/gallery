@@ -1,6 +1,7 @@
 import Link from "next/link";
+import { db } from "~/server/db";
 
-export default function HomePage() {
+export default async function HomePage() {
   const mockUrls =[
     "https://oei9zjcqvi.ufs.sh/f/J4uVL1lVBpyrJqriEslVBpyrTSIa6XlxduYPM0gw9WD8LE4A",
     "https://oei9zjcqvi.ufs.sh/f/J4uVL1lVBpyr77Km2eqJXfmPEZjGliF4s8H1z3k5Sa2DRb9u",
@@ -11,7 +12,7 @@ export default function HomePage() {
       id:index+1,
       url
     }))
-
+   
   return (
      <main className="">
       <div className = "flex flex-wrap gap-4">
