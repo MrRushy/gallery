@@ -1,6 +1,6 @@
 ##TODO
 -[ ] Make It Deploy on Vercel
--[ ] Scaffold the UI
+-[x] Scaffold the UI
 -[ ] Setup DB w/ Neon
 -[ ] Add Auth
 -[ ] Image Uploading
